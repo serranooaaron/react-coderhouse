@@ -9,7 +9,12 @@ function searchbar({ setValue }) {
 
   return (
     <div className={styles.text_area}>
-      <input ref={inputRef} type="text" placeholder="Ingrese su busqueda..." />
+      <input
+        onChange={(e) => setValue(e.target.value)}
+        ref={inputRef}
+        type="text"
+        placeholder="Ingrese su busqueda..."
+      />
     </div>
   );
 }

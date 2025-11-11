@@ -1,9 +1,10 @@
 import Item from "./Item.jsx";
+import styles from "./itemlist.module.css";
 function ItemList({ items }) {
   return (
-    <div>
+    <div className={styles.itemlist}>
       {items.map((item) => (
-        <div className="itemList" key={item.id}>
+        <div key={item.id}>
           <Item item={item} />
         </div>
       ))}

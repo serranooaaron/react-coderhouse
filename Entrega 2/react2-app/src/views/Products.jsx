@@ -1,12 +1,11 @@
-import { useState } from "react";
 import ItemListContainer from "../components/Items/ItemListContainer";
-
-const Products = ({ searchValue = "" }) => {
- 
+import { useOutletContext } from "react-router-dom";
+const Products = () => {
+  const { searchValue } = useOutletContext();
   return (
     <div>
       <h1>Products</h1>
-      <ItemListContainer />
+      <ItemListContainer searchValue={searchValue} />
     </div>
   );
 };
