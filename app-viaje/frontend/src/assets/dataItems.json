@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Rio de Janeiro",
+    "description": "Viaje a Rio de Janeiro - ALL INCLUSIVE",
+    "imageUrl": "mcqueen",
+    "price": 800.0
+  },
+  {
+    "id": 2,
+    "name": "Bombinhas",
+    "description": "Viaje a Bombinhas - ALL INCLUSIVE",
+    "imageUrl": "mcqueen",
+    "price": 890.0
+  },
+  {
+    "id": 3,
+    "name": "Playa del Carmen - Mexico!",
+    "description": "Viaje a Playa del Carmen - ALL INCLUSIVE",
+    "imageUrl": "mcqueen",
+    "price": 1560.0
+  },
+  {
+    "id": 4,
+    "name": "Republica Dominicana",
+    "description": "Viaje a Republica Dominicana - ALL INCLUSIVE",
+    "imageUrl": "mcqueen",
+    "price": 1450.0
+  },
+  {
+    "id": 5,
+    "name": "Punta Cana",
+    "description": "Viaje a Punta Cana - ALL INCLUSIVE",
+    "imageUrl": "mcqueen",
+    "price": 1650.0
+  }
+]

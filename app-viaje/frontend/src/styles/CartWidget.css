@@ -1,0 +1,57 @@
+.cart-icon {
+  width: 20px;
+  height: 20px;
+}
+.item-count {
+  color: black;
+}
+
+.cart-icon:active {
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+.cart-icon:focus {
+  outline: 2px solid #c1121f;
+}
+button {
+  background: none;
+  color: #c1121f;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+@media (min-width: 769px) {
+  .item-count {
+    position: absolute;
+    top: 40px;
+    right: 435px;
+    background-color: #780000;
+    color: black;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 8px;
+  }
+  .cart-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .cart-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  .cart-icon:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+  }
+  .cart-icon:focus {
+    outline: 2px solid #c1121f;
+  }
+
+  button {
+    background: none;
+    color: #c1121f;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+}

@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+:default .greeting {
+  text-align: center;
+  color: #780000;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.itemListContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}

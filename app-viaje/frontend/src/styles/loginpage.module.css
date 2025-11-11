@@ -1,0 +1,38 @@
+.loginForm {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 1.5rem;
+}
+.loginForm div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+}
+.loginForm button {
+  background-color: #780000;
+  color: #ccc;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+.loginForm h1 {
+  color: #780000;
+  font-size: 1.5rem;
+}
+
+.text_area {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #ccc;
+  color: black;
+}
+.text_area input {
+  width: auto;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 8px;
+}

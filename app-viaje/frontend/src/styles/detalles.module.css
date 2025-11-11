@@ -1,0 +1,75 @@
+.detalles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Detalle Container Styles */
+.detalleContainer {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+/* Detalle Card Styles IMG */
+.detalleCard1 {
+  display: grid;
+  flex: 1;
+}
+.detalleCard1 img {
+  max-width: 100%;
+  height: auto;
+}
+/* Detalle Card Styles IMG */
+
+.detalleCard2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header header"
+    "description description description"
+    "price price price"
+    "button button button";
+  gap: 8px;
+  flex: 2;
+}
+.detalleTitle {
+  grid-area: header;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #780000;
+  text-shadow: #fdf0d5 1px 1px 2px;
+}
+.detalleDescription {
+  grid-area: description;
+  font-size: 1.2rem;
+  color: #333;
+  text-shadow: #fdf0d5 1px 1px 2px;
+}
+.detallePrecio {
+  grid-area: price;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: #ccc 0.5px 0.5px 1px;
+  color: #780000;
+}
+.detalleButton {
+  grid-area: button;
+  justify-self: start;
+  padding: 10px 20px;
+  background-color: #780000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

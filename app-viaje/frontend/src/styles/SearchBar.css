@@ -1,0 +1,29 @@
+.search-bar {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .search-bar {
+    padding: 4px;
+    border: 1px solid #ccc;
+  }
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+}
