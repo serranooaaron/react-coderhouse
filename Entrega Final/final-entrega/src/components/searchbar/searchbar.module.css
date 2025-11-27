@@ -1,0 +1,22 @@
+.searchContainer {
+  flex: 1;
+  max-width: 300px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.searchInput:focus {
+  outline: 1px solid #0066cc;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}

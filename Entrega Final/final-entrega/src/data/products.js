@@ -1,0 +1,78 @@
+// Datos de ejemplo de productos para usar en toda la aplicación
+export const products = [
+  {
+    id: 1,
+    name: "Laptop HP",
+    category: "Electrónica",
+    price: 79999.99,
+    description:
+      "Laptop potente con procesador Intel Core i5, 8GB RAM y 256GB SSD",
+    image: "https://via.placeholder.com/300x200/4A90E2/ffffff?text=Laptop+HP",
+    stock: 15,
+  },
+  {
+    id: 2,
+    name: "Mouse Logitech",
+    category: "Accesorios",
+    price: 29999.99,
+    description: "Mouse inalámbrico ergonómico con sensor óptico de precisión",
+    image: "https://via.placeholder.com/300x200/7B68EE/ffffff?text=Mouse",
+    stock: 50,
+  },
+  {
+    id: 3,
+    name: "Teclado Mecánico",
+    category: "Accesorios",
+    price: 89999.99,
+    description: "Teclado mecánico RGB con switches azules y retroiluminación",
+    image: "https://via.placeholder.com/300x200/50C878/ffffff?text=Teclado",
+    stock: 30,
+  },
+  {
+    id: 4,
+    name: 'Monitor Samsung 24"',
+    category: "Electrónica",
+    price: 19999.99,
+    description: "Monitor Full HD 24 pulgadas con panel IPS y 75Hz",
+    image: "https://via.placeholder.com/300x200/FF6347/ffffff?text=Monitor",
+    stock: 20,
+  },
+  {
+    id: 5,
+    name: "Auriculares Sony",
+    category: "Audio",
+    price: 14999.99,
+    description:
+      "Auriculares inalámbricos con cancelación de ruido y 30h de batería",
+    image: "https://via.placeholder.com/300x200/FFD700/ffffff?text=Auriculares",
+    stock: 40,
+  },
+  {
+    id: 6,
+    name: "Webcam Logitech",
+    category: "Accesorios",
+    price: 59999.99,
+    description: "Webcam HD 1080p con micrófono integrado para videollamadas",
+    image: "https://via.placeholder.com/300x200/FF69B4/ffffff?text=Webcam",
+    stock: 25,
+  },
+  {
+    id: 7,
+    name: "SSD Samsung 500GB",
+    category: "Almacenamiento",
+    price: 79999.99,
+    description:
+      "Disco sólido interno SATA 500GB con velocidades de lectura de 550MB/s",
+    image: "https://via.placeholder.com/300x200/20B2AA/ffffff?text=SSD",
+    stock: 35,
+  },
+  {
+    id: 8,
+    name: "Impresora Epson",
+    category: "Oficina",
+    price: 12999.99,
+    description: "Impresora multifunción con WiFi, escáner y copiadora",
+    image: "https://via.placeholder.com/300x200/9370DB/ffffff?text=Impresora",
+    stock: 12,
+  },
+];
